@@ -11,6 +11,11 @@ body {
   transform: translateY(-50%);
   margin: 0 auto;
 
+  ::selection {
+    background-color: transparent;
+    color: inherit;
+  }
+
   #result {
     text-align: right;
     padding-right: 2vmin;
@@ -35,7 +40,7 @@ body {
     text-align: center;
 
     .key {
-      background-color: #998E8E;
+      background-color: #434343;
       color: #F3F3F3;
       font-size: 8vmin;
       font-weight: 100;
@@ -56,7 +61,7 @@ body {
     text-align: center;
 
     .operator {
-      background-color: #EC6B28;
+      background-color: #636363;
       color: #F3F3F3;
       font-size: 6vmin;
       font-weight: 300;

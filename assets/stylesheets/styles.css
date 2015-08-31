@@ -8,6 +8,9 @@ body {
   top: 50%;
   transform: translateY(-50%);
   margin: 0 auto; }
+  #calculator ::selection {
+    background-color: transparent;
+    color: inherit; }
   #calculator #result {
     text-align: right;
     padding-right: 2vmin;
@@ -27,7 +30,7 @@ body {
   #calculator #keys {
     text-align: center; }
     #calculator #keys .key {
-      background-color: #998E8E;
+      background-color: #434343;
       color: #F3F3F3;
       font-size: 8vmin;
       font-weight: 100;
@@ -40,7 +43,7 @@ body {
   #calculator #operators {
     text-align: center; }
     #calculator #operators .operator {
-      background-color: #EC6B28;
+      background-color: #636363;
       color: #F3F3F3;
       font-size: 6vmin;
       font-weight: 300;
