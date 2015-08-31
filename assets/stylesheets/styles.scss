@@ -18,8 +18,9 @@ body {
 
   #result {
     text-align: right;
+    color: #FFFFFF;
     padding-right: 2vmin;
-    background-color: #F3F3F3;
+    background-color: #000000;
     font-size: 14vmin;
     font-weight: 100;
     height: 1.3*$key_height;
@@ -28,8 +29,9 @@ body {
 
   #preview {
     text-align: right;
+    color: #FFFFFF;
     padding-right: 2vmin;
-    background-color: #F2F2F2;
+    background-color: #000000;
     font-size: 6vmin;
     font-weight: 100;
     height: 0.7*$key_height;
@@ -40,7 +42,7 @@ body {
     text-align: center;
 
     .key {
-      background-color: #434343;
+      background-color: #817067;
       color: #F3F3F3;
       font-size: 8vmin;
       font-weight: 100;
@@ -61,7 +63,7 @@ body {
     text-align: center;
 
     .operator {
-      background-color: #636363;
+      background-color: #E76826;
       color: #F3F3F3;
       font-size: 6vmin;
       font-weight: 300;

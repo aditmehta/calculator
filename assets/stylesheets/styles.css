@@ -13,16 +13,18 @@ body {
     color: inherit; }
   #calculator #result {
     text-align: right;
+    color: #FFFFFF;
     padding-right: 2vmin;
-    background-color: #F3F3F3;
+    background-color: #000000;
     font-size: 14vmin;
     font-weight: 100;
     height: 20.8vmin;
     line-height: 20.8vmin; }
   #calculator #preview {
     text-align: right;
+    color: #FFFFFF;
     padding-right: 2vmin;
-    background-color: #F2F2F2;
+    background-color: #000000;
     font-size: 6vmin;
     font-weight: 100;
     height: 11.2vmin;
@@ -30,7 +32,7 @@ body {
   #calculator #keys {
     text-align: center; }
     #calculator #keys .key {
-      background-color: #434343;
+      background-color: #817067;
       color: #F3F3F3;
       font-size: 8vmin;
       font-weight: 100;
@@ -43,7 +45,7 @@ body {
   #calculator #operators {
     text-align: center; }
     #calculator #operators .operator {
-      background-color: #636363;
+      background-color: #E76826;
       color: #F3F3F3;
       font-size: 6vmin;
       font-weight: 300;
